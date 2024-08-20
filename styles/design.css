@@ -13,7 +13,7 @@
   background: #ff900e;
   border: 0;
   padding: 1.3rem;
-  cursor:pointer;
+  cursor: pointer;
 }
 /* body{
   max-width: 1440px;
@@ -32,7 +32,7 @@ nav {
 .nav-title {
   color: var(--Dark-01, #131313);
   font-size: 2.8rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 nav > ul {
   display: flex;
@@ -50,7 +50,7 @@ nav > ul > li > a {
   text-align: center;
   margin: 50px auto;
 }
-.banner-title>h2 {
+.banner-title > h2 {
   color: var(--Dark-01, #131313);
   font-size: 2.5rem;
   font-weight: 700;
@@ -61,143 +61,269 @@ nav > ul > li > a {
   font-size: 1rem;
   font-weight: 400;
 }
-.faim{
-    margin-top:.7rem;
+.faim {
+  margin-top: 0.7rem;
 }
-.banner>img{
-    width:100%;
+.banner > img {
+  width: 100%;
 }
 /* main styles */
-main{
+main {
   max-width: 1440px;
-  margin:0px auto;
+  margin: 0px auto;
 }
 /* style of feature container */
-.featurepic{
+.featurepic {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap:24px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
-.feature_container{
+.feature_container {
   display: flex;
   align-items: center;
-  padding:30px 200px;
+  padding: 30px 200px;
   padding-right: 100px;
 }
-.feat-heading{
+.feat-heading {
   color: var(--Dark-03, #727272);
-font-size: 2.8rem;
-font-weight: 500;
+  font-size: 2.8rem;
+  font-weight: 500;
 }
-.of-our{
+.of-our {
   color: var(--Dark-01, #131313);
-font-size: 2.8rem;
-font-weight: 700;
+  font-size: 2.8rem;
+  font-weight: 700;
 }
-.feat{
-  color: #FF900E;
-font-size: 2.8rem;
-font-weight: 700;
+.feat {
+  color: #ff900e;
+  font-size: 2.8rem;
+  font-weight: 700;
 }
-.feat-des{
+.feat-des {
   color: var(--Dark-03, #727272);
-font-size: 1rem;
-font-weight: 400;
+  font-size: 1rem;
+  font-weight: 400;
 }
-.feature_descriprion{
+.feature_descriprion {
   padding-left: 3rem;
 }
-/* facts-style */
-.some-facts{
-  margin:100px 0px;
-  padding:0px 100px;
+
+/* experiences styles */
+.experiences {
+  display: flex;
+  gap: 100px;
+  margin-top: 130px;
+  margin-bottom: 70px;
 }
-.facts-container{
+.cards {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.bampash-title {
+  color: var(--Dark-01, #131313);
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.ptr {
+  color: var(--Dark-03, #727272);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.salsabil{
+margin-bottom: 30px;
+}
+.cards-title {
+  color: var(--Dark-01, #131313);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0px;
+}
+.badge {
+  border-radius: 8px;
+  background: #ff900e;
+  width: 330px;
+  flex-shrink: 0;
+  text-align: center;
+  padding:40px;
+  position: relative;
+  bottom: 100px;
+  right: 50px;
+}
+.badge-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  margin:0px;
+}
+.badge-description{
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin:0px;
+}
+.danpash img{
+
+  margin-left:100px;
+}
+
+
+/* facts-style */
+.some-facts {
+  margin: 100px 0px;
+  padding: 0px 100px;
+}
+.facts-container {
   display: flex;
   justify-content: space-around;
 }
-.fact-title{
+.fact-title {
   color: var(--Dark-01, #131313);
-font-size: 2.8rem;
-font-weight: 700;
-margin-bottom: .5rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
-.facts{
+.facts {
   border-radius: 8px;
-border: 1px solid #FF900E;
-text-align: center;
-/* width: 241.831px;
-height: 200.831px; */
-padding: 40px 30px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 40px 30px;
 }
-.tl{
+.tl {
   color: var(--Dark-02, #424242);
-font-size: 2.8rem;
-font-weight: 600;
-margin:5px;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin: 5px;
 }
-.facts-info{
+.facts-info {
   color: var(--Dark-03, #727272);
-font-size: 1.4rem;
-font-weight: 600;
-margin-top:2px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2px;
 }
 
-.saima{
+.saima {
   color: var(--Dark-03, #727272);
-font-size: 1rem;
-font-weight: 400;
-margin-bottom: 6rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 6rem;
 }
-
+/* sponsors styles */
+.sp-images {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.fm {
+  color: var(--Dark-01, #131313);
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 24px 0px;
+}
+/* foooter styles */
+footer {
+  max-width: 1400px;
+  margin: 100px auto;
+  margin-bottom: 150px;
+}
+.ft {
+  border-radius: 8px;
+  background: #fff4e7;
+}
+.ft-des {
+  color: var(--Dark-02, #424242);
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 20px 0px;
+}
 /* resposiveness of header */
 /* small device */
- @media screen and (max-width:576px){
-  header{
-    padding :20px;
-    nav{
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+    nav {
       flex-direction: column;
     }
   }
-  .feature_container{
+  .feature_container {
     flex-direction: column;
-    padding:30px 100px;
+    padding: 30px 100px;
   }
-  .featurepic{
+  .featurepic {
     grid-template-columns: 1fr;
   }
-  .facts-container{
+  .experiences{
     flex-direction: column;
   }
-  .facts-container{
-    flex-direction: column;
-    gap:20px;
+  .badge{
+    position: static;
   }
- }
- /* medium devices */
- @media screen and (min-width:577px) and (max-width:992px){
-  header{
-    padding:50px;
+  .danpash img{
+    margin:0px;
+    width:100%;
   }
-  nav
-  {
+  .facts-container {
     flex-direction: column;
   }
-  .feature_container{
+  .facts-container {
     flex-direction: column;
-    padding:30px 150px;
+    gap: 20px;
   }
-  .featurepic{
+  .sp-images {
+    flex-direction: column;
+    padding: 150px;
+    gap: 35px;
+    margin-top: 0px;
+  }
+  .ft-des {
+    padding: 0px 20px;
+  }
+}
+/* medium devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .feature_container {
+    flex-direction: column;
+    padding: 30px 150px;
+  }
+  .featurepic {
     grid-template-columns: 1fr;
   }
-  .facts-container{
+
+  .facts-container {
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
   }
- }
- @media screen and (min-width:577px) and (max-width:1188px){
-  .feature_container{
+  .sp-images {
     flex-direction: column;
-    padding:30px 150px;
+    padding: 250px;
+    padding-top: 100px;
+    gap: 35px;
+    margin-top: 0px;
   }
- }
+}
+@media screen and (min-width: 577px) and (max-width: 1188px) {
+  .feature_container {
+    flex-direction: column;
+    padding: 30px 150px;
+  }
+  .experiences{
+    flex-direction: column;
+  }
+  .badge{
+    position: static;
+  }
+  .danpash img{
+    margin:0px;
+    width:100%;
+  }
+}
